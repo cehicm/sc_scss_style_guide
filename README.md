@@ -215,6 +215,8 @@
     }
 ```
 - Never use vendor prefixes
+- Do not use inline styles
+- Always take into account wrapper styles of other elements on the page. This includes widths, padding, margins, etc. We want to make sure that everything looks cohesive.
 
 ### Comments
 - Always use single line comments style
